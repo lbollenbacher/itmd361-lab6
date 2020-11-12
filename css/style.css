@@ -1,4 +1,4 @@
-/* For Top Horizontal Navigation */
+/* Horizontal Navigation */
 
 #main-navbar {
   background-color: blue;
@@ -42,17 +42,32 @@
   text-decoration: underline overline;
 }
 
-/* For Right Sidebar Navigation */
-position: fixed; 
-right: 0%; 
-background-color: red; 
-height: 100%;
-width: 20%; 
-list-style-type: none; 
-text-align: center; 
-padding: 0;
-display: block;
-padding: 15px 0;
-color: #fff; 
-text-decoration: none; 
-background-color: #000;
+/* Sidebar Navigation */
+
+#sidebar {
+  background-color: red;
+  height: 100%
+  position: fixed;
+  right: 0;
+  width: 20%;
+}
+
+#sidebar ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar li {
+  padding: 15px 0;
+}
+
+#sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar a:hover {
+  background-color: #000;
+  display: block;
+}
