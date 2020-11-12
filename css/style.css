@@ -1,25 +1,46 @@
 /* For Top Horizontal Navigation */
-background-color: blue; 
-overflow: hidden;
-float: left;
-width: 100%;
-position: relative; 
-list-style-type: none; 
-margin: 0;
-padding: 0;
-position: relative;
-left: 50%;
-float: left;
-float: left;
-position: relative;
-right: 50%;
-display: block;
-display: block;
-padding: 10px 20px;
-color: #fff;
-text-decoration: none; 
-background-color: #000; 
-text-decoration: underline overline;
+
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+}
+
+#main-navbar ul {
+  float: left;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+  left: 50%;
+}
+
+#main-navbar li {
+  float: left;
+  position: relative;
+  right: 50%
+}
+
+#main-navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+}
+
+#main-navbar a:hover {
+  background-color: #000;
+  display: block;
+}
+
+#navbar-container {
+  float: left;
+  position: relative;
+  width: 100%
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
 
 /* For Right Sidebar Navigation */
 position: fixed; 
