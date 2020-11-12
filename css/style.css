@@ -44,30 +44,24 @@
 
 /* Sidebar Navigation */
 
-#sidebar {
+#sidebar ul{
   background-color: red;
   height: 100%
+  list-style-type: none;
+  padding: 0;
   position: fixed;
   right: 0%;
   width: 20%;
-}
-
-#sidebar ul {
   text-align: center;
-  list-style-type: none;
-  padding: 0;
 }
 
-#sidebar li {
+#sidebar li a {
   padding: 15px 0;
-}
-
-#sidebar a {
+  display: block;
   color: #fff;
   text-decoration: none;
 }
 
 #sidebar a:hover {
   background-color: #000;
-  display: block;
 }
