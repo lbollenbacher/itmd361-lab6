@@ -68,5 +68,5 @@
   text-decoration: none;
 }
 
-#sidebar li:hover {
+#sidebar-container li:hover {
   background-color: #000;
